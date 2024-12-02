@@ -1,0 +1,49 @@
+/* Estilos principales del navbar */
+.navbar {
+  background-color: #00c3ff !important; /* Color de fondo */
+  padding: 10px; /* Espaciado interno */
+  width: 100%; /* Asegura que el navbar ocupe todo el ancho */
+  position: fixed; /* Fijar el navbar en la parte superior */
+  top: 0; /* Establecerlo en la parte superior */
+  left: 0; /* Asegura que esté alineado con el borde izquierdo */
+  z-index: 1000; /* Asegura que el navbar esté encima de otros elementos */
+}
+
+/* Estilos para el título del navbar */
+.navbar-title {
+  color: rgb(255, 255, 255);  /* Color del texto */
+  flex-grow: 1;  /* Hace que el título ocupe todo el espacio disponible */
+}
+
+/* Estilos para los enlaces del navbar */
+.navbar .navbar-link {
+  color: rgb(255, 255, 255);  /* Color de los botones */
+  text-decoration: none;  /* Sin subrayado */
+  margin-right: 15px;  /* Espaciado entre enlaces */
+  font-size: 16px; /* Ajusta el tamaño de los botones */
+}
+
+/* Hover para los enlaces */
+.navbar .navbar-link:hover {
+  text-decoration: underline;  /* Subrayado al pasar el mouse */
+  color: rgb(16, 0, 44);  /* Cambiar color al hacer hover */
+}
+
+/* Estilos para asegurar que el contenido de la página no quede oculto detrás del navbar */
+body {
+  margin-top: 64px; /* Ajusta el margen superior para que el contenido no quede oculto detrás del navbar */
+}
+
+/* Estilos responsive para pantallas pequeñas */
+@media (max-width: 600px) {
+  .navbar .navbar-link {
+    font-size: 14px; /* Reduce el tamaño de los botones en pantallas pequeñas */
+  }
+  .navbar-title {
+    font-size: 18px; /* Ajusta el tamaño del título */
+  }
+}
+
+
+
+

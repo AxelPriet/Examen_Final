@@ -1,0 +1,10 @@
+/* Asegura que el contenido no se superponga al navbar */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Espacio debajo del navbar */
+.content {
+  padding-top: 70px; /* Ajusta este valor dependiendo de la altura de tu navbar */
+}
