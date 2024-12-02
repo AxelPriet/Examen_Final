@@ -1,0 +1,24 @@
+.home-container {
+    display: flex; /* Habilita Flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    flex-direction: column; /* Coloca los elementos en una columna */
+    width: 100vw; /* Ocupa todo el ancho de la ventana */
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    margin: 0; /* Asegura que no haya márgenes alrededor */
+    padding: 0; /* Elimina cualquier espacio interno */
+    text-align: center; /* Centra el texto */
+  }
+  
+  h1 {
+    font-size: 2.5rem; /* Tamaño del texto del título */
+    margin-bottom: 20px; /* Espaciado inferior */
+    color: #ffffff; /* Color negro del texto */
+  }
+  
+  p {
+    font-size: 1.2rem; /* Tamaño del texto del párrafo */
+    color: #ffffff; /* Color gris oscuro */
+  }
+  
+  

@@ -1,9 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import './Home.css'; 
 
 const Home = () => {
   return (
-    <div style={{ textAlign: 'center', padding: '50px' }}>
+    <div className="home-container">
       <motion.h1
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
@@ -23,3 +24,4 @@ const Home = () => {
 };
 
 export default Home;
+

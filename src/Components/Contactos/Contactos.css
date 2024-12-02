@@ -1,0 +1,42 @@
+.contactos-container {
+    display: flex; /* Habilita Flexbox */
+    flex-direction: column; /* Coloca elementos en una columna */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    width: 100vw; /* Ocupa todo el ancho de la pantalla */
+    height: 100vh; /* Ocupa todo el alto de la pantalla */
+    margin: 0; /* Elimina márgenes */
+    padding: 0; /* Elimina rellenos */
+    text-align: center; /* Centra texto en su contenedor */
+    background: none; /* Elimina el fondo (si existía) */
+  }
+  
+  h1 {
+    font-size: 3rem; /* Tamaño grande para el título */
+    margin-bottom: 40px; /* Espaciado entre el título y el contenido */
+    color: #ffffff; /* Color negro para el texto */
+  }
+  
+  .contactos-info {
+    display: flex; /* Usa Flexbox para alinear elementos */
+    flex-direction: column; /* Elementos apilados verticalmente */
+    gap: 20px; /* Espaciado entre cada ícono con texto */
+  }
+  
+  .contacto-item {
+    display: flex; /* Usa Flexbox para cada ícono y texto */
+    align-items: center; /* Centra verticalmente el ícono y el texto */
+    gap: 15px; /* Espaciado entre el ícono y el texto */
+  }
+  
+  .icon {
+    font-size: 2rem; /* Tamaño del ícono */
+    color: #ffffff; /* Color negro para los íconos */
+  }
+  
+  .contacto-item span {
+    font-size: 1.5rem; /* Tamaño del texto */
+    color: #ffffff; /* Color gris oscuro para el texto */
+  }
+  
+  
