@@ -10,7 +10,7 @@ const obras = [
     id: 1,
     nombre: "Obra 1",
     descripcion: "Descripción de la Obra 1",
-    color: "red",
+    color: "yellow",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const obras = [
     id: 3,
     nombre: "Obra 3",
     descripcion: "Descripción de la Obra 3",
-    color: "green",
+    color: "red",
   },
 ];
 
